@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Vilas Agro - Leading Agriculture Partner",
+  "description": "A modern, reliable, and information-dense platform for Vilas Agro, showcasing quality agricultural products and services.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
