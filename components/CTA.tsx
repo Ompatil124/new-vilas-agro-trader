@@ -57,7 +57,7 @@ const CTA: React.FC = () => {
                   href="https://maps.app.goo.gl/dCtPC6ygrSnmHcgC9"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-accent text-white px-12 py-5 rounded-[24px] font-black text-xl hover:bg-white hover:text-primary hover:scale-105 transition-all duration-500 shadow-2xl shadow-accent/20 text-center"
+                  className="bg-white/5 backdrop-blur-xl text-white border-2 border-white/10 px-12 py-5 rounded-[24px] font-black text-xl hover:bg-white hover:text-primary transition-all duration-500 text-center"
                 >
                   Locate On Maps
                 </a>
