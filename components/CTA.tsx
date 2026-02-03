@@ -15,7 +15,7 @@ const CTA: React.FC = () => {
               <div>
                 <h2 className="text-5xl md:text-7xl font-black text-white leading-[1.1] tracking-tighter mb-8">
                   Step Into <br />
-                  <span className="text-accent underline decoration-cta/30">Vilas Agro.</span>
+                  <span className="text-white underline decoration-cta/30">Vilas Agro.</span>
                 </h2>
                 <p className="text-slate-400 text-xl font-medium leading-relaxed max-w-lg">
                   Visit our Nandurbar branch for professional guidance and the finest agricultural supplies in the district.
@@ -54,7 +54,7 @@ const CTA: React.FC = () => {
 
               <div className="flex flex-col sm:flex-row gap-5 pt-8">
                 <a
-                  href="https://www.google.com/maps/place/Vilas+agro/@21.3668465,74.2451498,17z"
+                  href="https://maps.app.goo.gl/dCtPC6ygrSnmHcgC9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-accent text-white px-12 py-5 rounded-[24px] font-black text-xl hover:bg-white hover:text-primary hover:scale-105 transition-all duration-500 shadow-2xl shadow-accent/20 text-center"

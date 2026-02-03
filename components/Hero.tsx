@@ -19,6 +19,9 @@ const Hero: React.FC = () => {
   // Foreground speed 1.2x -> moving slightly faster in the opposite direction for depth
   const fgTransform = `translateY(${Math.max(scrollY * -0.15, -30)}px)`;
 
+  // Calculate years since 1997
+  const yearsSince1997 = new Date().getFullYear() - 1997;
+
   return (
     <section className="relative pt-40 pb-20 md:pt-56 md:pb-40 overflow-hidden bg-background">
       {/* Background Decor (Parallax Layer) */}
@@ -78,7 +81,7 @@ const Hero: React.FC = () => {
 
             <div className="flex items-center gap-10 pt-10 border-t border-slate-200/60 w-fit">
               <div className="group">
-                <div className="text-3xl font-black text-primary group-hover:text-cta transition-colors">15+</div>
+                <div className="text-3xl font-black text-primary group-hover:text-cta transition-colors">{yearsSince1997}+</div>
                 <div className="text-[10px] text-slate-400 font-bold uppercase tracking-widest">Years Legacy</div>
               </div>
               <div className="h-10 w-px bg-slate-200" />
