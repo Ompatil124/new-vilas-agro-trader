@@ -28,7 +28,7 @@ const SocialProof: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-8 relative">
         {/* Background Accent */}
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-accent/5 rounded-full blur-[100px]" />
-        
+
         <div className="text-center mb-20 relative z-10">
           <h2 className="text-accent font-bold uppercase tracking-[0.2em] text-sm mb-4">Voice of the Land</h2>
           <h3 className="text-4xl md:text-5xl font-extrabold mb-6">Trusted by Thousands <br /> of Local Families</h3>
@@ -62,9 +62,14 @@ const SocialProof: React.FC = () => {
         {/* Brand Bar */}
         <div className="mt-20 pt-16 border-t border-white/10 text-center relative z-10">
           <p className="text-slate-400 text-sm font-bold uppercase tracking-widest mb-10">Authorised Dealer for Leading Brands</p>
-          <div className="flex flex-wrap justify-center items-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all">
-            {['SYNGENTA', 'BAYER', 'MONSANTO', 'MAHYCO', 'NUZIVEEDU'].map(brand => (
-              <span key={brand} className="text-2xl font-black text-white">{brand}</span>
+          <div className="flex flex-wrap justify-center items-center gap-16">
+            {['nutrihub', 'parijat'].map(brand => (
+              <span
+                key={brand}
+                className="text-3xl font-black text-slate-500 hover:text-white hover:scale-110 transform transition-all duration-300 cursor-default uppercase tracking-widest select-none"
+              >
+                {brand}
+              </span>
             ))}
           </div>
         </div>
