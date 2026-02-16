@@ -69,8 +69,8 @@ const CTA: React.FC = () => {
 
             <div className="relative overflow-hidden group min-h-[500px] lg:min-h-0">
               <img
-                src="https://cdn.discordapp.com/attachments/1467937539305508865/1467937569688911932/Screenshot_2026-02-02_195625.png?ex=698232e5&is=6980e165&hm=d1dcffcbd8a1503f9db5da2a457df7680df132679387bafb9695ffd25a72202e"
-                alt="Store Front Details"
+                src="/store-front.png"
+                alt="Vilas Agro Store Front"
                 className="absolute inset-0 w-full h-full object-cover grayscale-[30%] group-hover:grayscale-0 group-hover:scale-110 transition-all duration-1000"
               />
               <div className="absolute inset-0 bg-gradient-to-l from-primary/40 to-transparent" />

@@ -38,7 +38,7 @@ const Navbar: React.FC<NavbarProps> = ({ isScrolled }) => {
           </a>
 
           <a
-            href="https://www.google.com/maps/place/Vilas+agro/@21.3668465,74.2451498,17z"
+            href="https://maps.app.goo.gl/dCtPC6ygrSnmHcgC9"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-cta text-white px-7 py-3 rounded-xl hover:bg-primary hover:shadow-2xl hover:translate-y-[-2px] transition-all duration-300 active:scale-95"

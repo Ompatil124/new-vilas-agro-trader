@@ -37,7 +37,7 @@ const App: React.FC = () => {
           <span className="text-sm font-bold text-primary">Contact Vilas Agro</span>
         </div>
         <a
-          href="https://www.google.com/maps/place/Vilas+agro/@21.3668465,74.2451498,17z"
+          href="https://maps.app.goo.gl/dCtPC6ygrSnmHcgC9"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-cta text-white px-6 py-2.5 rounded-lg font-bold text-sm transition-transform active:scale-95 shadow-lg shadow-cta/20"
